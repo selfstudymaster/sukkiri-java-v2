@@ -1,1 +1,0 @@
-# sukkiri-java-v2
