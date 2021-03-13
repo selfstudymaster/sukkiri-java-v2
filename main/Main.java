@@ -1,12 +1,11 @@
 package main;
 
-// コーディング練習用
+//chap01
+//コーディング練習用
 //public class Main {
-//
 //	public static void main(String[] args) {
 //		System.out.println("Hello tensai!");
 //	}
-//
 //}
 
 //  list01-01
@@ -53,7 +52,7 @@ package main;
 // list01-05
 public class Main {
 	public static void main(String[] args) {
-		final double TAX = 1.08;
+		final double TAX = 1.08; // 誤って変更されたくない値には定数finalを指定し、定数名を大文字表記
 		int fax = 5;
 		System.out.println( "5万円から4万円に値下げします");
 		fax = 4;
